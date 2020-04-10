@@ -1,0 +1,34 @@
+id: ServiceNowPlaybook
+version: 0
+name: ServiceNowPlaybook
+description: creates tickets from phishme, then sends to sandbox
+starttaskid: "0"
+tasks:
+    "0":
+    id: "0"
+    taskid: c44160b9-16d8-4a1e-8765-1c034006a183
+    type: start
+    task:
+      id: c44160b9-16d8-4a1e-8765-1c034006a183
+      version: -1
+      name: ""
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "1"
+    separatecontext: false
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 1640,
+        "width": 1280,
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+inputs: []
+outputs: []

@@ -1,6 +1,7 @@
-id: JoeSecurityTestPlaybook
+id: JoeSandboxPlaybook
 version: -1
-name: JoeSecurityTestPlaybook
+name: JoeSandboxPlaybook
+description: what happens when case is received by sandbox to analyze from ServiceNow. scans email, then send to .
 starttaskid: "0"
 tasks:
   "0":

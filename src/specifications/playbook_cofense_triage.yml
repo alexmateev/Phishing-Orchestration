@@ -1,6 +1,7 @@
 id: Cofense Triage Test
 version: -1
 name: Cofense Triage Test
+description: what happens when case is received by sandbox to analyze. scans email, then send to .
 starttaskid: "0"
 tasks:
   "0":
@@ -68,7 +69,7 @@ tasks:
     task:
       id: b127757a-993e-40d4-8115-761360092de7
       version: -1
-      name: Get repot by ID
+      name: Get report by ID
       description: 'Retrieve a report by it''s ID number '
       script: '|||cofense-get-report-by-id'
       type: regular

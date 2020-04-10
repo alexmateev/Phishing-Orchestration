@@ -1,6 +1,7 @@
-id: Test - Cofense Intelligence
+id: PhishMe - Cofense Intelligence
 version: -1
-name: Test - Cofense Intelligence
+name: PhishMe - Cofense Intelligence
+description: what happens when phishme case is received. scans email, then send to ServiceNow.
 starttaskid: "0"
 tasks:
   "0":
